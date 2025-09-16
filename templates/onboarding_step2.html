@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Onboarding Step 2 - Skills & Experience</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  <style>
+    .form-box {
+      max-width: 400px;
+      margin: 50px auto;
+      background: #202a44;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px #1c2539;
+      color: #fff;
+    }
+    .form-box label {
+      font-weight: 600;
+      margin-top: 10px;
+      display: block;
+    }
+    .form-box input, .form-box select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #1c2539;
+      background-color: #1c2539;
+      color: #fff;
+      font-size: 14px;
+    }
+    .btn-submit {
+      margin-top: 20px;
+      width: 100%;
+      background: #a020f0;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn-submit:hover {
+      background: #574bdb;
+    }
+  </style>
+</head>
+<body>
+  <main class="form-box">
+    <h2>Step 2: Skills & Experience</h2>
+    <form method="POST" action="{{ url_for('onboarding_step2') }}">
+      <label for="education">Highest Education Qualification</label>
+      <select id="education" name="education" required>
+        <option value="">Select your qualification</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Postgraduate">Postgraduate</option>
+      </select>
+
+      <label for="skills">Skills (comma separated)</label>
+      <input type="text" id="skills" name="skills" placeholder="e.g. Python, SQL" required />
+
+      <label for="sectors">Sector Interests (comma separated)</label>
+      <input type="text" id="sectors" name="sectors" placeholder="e.g. IT, Finance" required />
+
+      <label for="experience">Years of Experience</label>
+      <input type="number" id="experience" name="experience" placeholder="e.g. 2" required />
+
+      <label for="institution">Institution/University</label>
+      <input type="text" id="institution" name="institution" placeholder="e.g. IIT Delhi" required />
+
+      <button type="submit" class="btn-submit">Complete Onboarding</button>
+    </form>
+  </main>
+</body>
+</html>

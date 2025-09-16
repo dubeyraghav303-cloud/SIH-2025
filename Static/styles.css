@@ -1,0 +1,234 @@
+/* === Global Reset & Base === */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1c2539;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #b6b3ff;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #574bdb;
+}
+
+/* === Navbar === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #202a44;
+  background: #202a44;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #6C63FF;
+}
+
+.navbar nav a {
+  margin: 0 12px;
+  font-weight: 500;
+  color: #fff;
+}
+.navbar nav a:hover {
+  color: #6C63FF;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('https://via.placeholder.com/36') center/cover;
+}
+
+/* === Containers & Headings === */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #6139ad;
+  text-align: center;
+}
+
+/* === Forms === */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #202a44;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px #1c2539;
+}
+
+.form-box label {
+  font-weight: 600;
+  font-size: 14px;
+  
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #1c2539;
+  font-size: 14px;
+  width: 100%;
+  background-color: #1c2539;
+  color: #fff;
+ 
+}
+
+/* === Buttons === */
+.btn-submit,
+.btn-outline,
+.btn-more {
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-submit {
+  background: #a020f0;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+}
+.btn-submit:hover {
+  background: #574bdb;
+}
+
+.btn-outline {
+  background: #fff;
+  border: 1px solid #6C63FF;
+  color: #6C63FF;
+  padding: 10px 18px;
+}
+.btn-outline:hover {
+  background: #6C63FF;
+  color: #fff;
+}
+
+.btn-more {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+  border: 1px solid #6C63FF;
+  background: #fff;
+  color: #6C63FF;
+  text-align: center;
+}
+.btn-more:hover {
+  background: #6C63FF;
+  color: #fff;
+}
+
+/* === Cards === */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  background: #191970;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px #191970;
+}
+
+.card-text {
+  flex: 1;
+  color: #fff;
+  
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+/* === Flash Messages === */
+.flash-area {
+  margin: 15px 0 25px;
+}
+.flash {
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.flash-success {
+  background: #ede9fe;
+  border: 1px solid #6C63FF;
+  color: #6C63FF;
+}
+.flash-info {
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  color: #1C1C1C;
+}
+
+/* === Utility === */
+.missing { color: #6139ad; }
+.matched-all { color: #6139ad; }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #1c2539;
+  border: 1px solid #1c2539;
+  color: #fff;
+}
+
+.location-filter-section {
+    background-color: #202a44;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 320px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.location-filter-section label {
+    color: #b6b3ff;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.location-filter-section select {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1c2539;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.location-filter-section select:focus {
+    outline: none;
+    box-shadow: 0 0 8px #6C63FF;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <style>
+        body {
+            background: #181c2f;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 2.5rem;
+        }
+        .courses-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+        .course-card {
+            background: #23294a;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .course-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+        }
+        .course-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            background: #2d3357;
+        }
+        .course-content {
+            padding: 20px;
+        }
+        .course-title {
+            font-size: 1.3rem;
+            margin: 0 0 10px 0;
+            color: #ffb347;
+        }
+        .course-desc {
+            font-size: 1rem;
+            color: #d1d5e0;
+            margin-bottom: 10px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 30px auto 0 auto;
+            color: #ffb347;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #202a44;
+  background: #202a44;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #6C63FF;
+}
+
+.navbar nav a {
+  margin: 0 12px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar nav a:hover {
+  color: #6C63FF;
+}
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">InternLink</div>
+    <nav>
+      <a href="{{ url_for('internship_form') }}">Home</a>
+      <a href="{{ url_for('internship_form') }}">Internships</a>
+    <a href="{{ url_for('courses') }}">Courses</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+    </nav>
+    <div class="avatar"></div>
+  </header>
+    <h1>Available Courses</h1>
+    <div class="courses-container">
+        <div class="course-card">
+            <img class="course-image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Python for Beginners">
+            <div class="course-content">
+                <div class="course-title">Python for Beginners</div>
+                <div class="course-desc">Start your programming journey with Python. No prior experience required.</div>
+                <a href="{{ url_for('enroll_course', course_name='Python for Beginners') }}" style="background:#6C63FF;color:#fff;padding:8px 22px;border:none;border-radius:8px;font-size:1rem;cursor:pointer;transition:background 0.2s;display:inline-block;text-align:center;text-decoration:none;">Apply</a>
+            </div>
+        </div>
+        <div class="course-card">
+            <img class="course-image" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Data Science Essentials">
+            <div class="course-content">
+                <div class="course-title">Data Science Essentials</div>
+                <div class="course-desc">Learn the basics of data analysis, visualization, and statistics for data science.</div>
+                <a href="{{ url_for('enroll_course', course_name='Data Science Essentials') }}" style="background:#6C63FF;color:#fff;padding:8px 22px;border:none;border-radius:8px;font-size:1rem;cursor:pointer;transition:background 0.2s;display:inline-block;text-align:center;text-decoration:none;">Apply</a>
+            </div>
+        </div>
+        <div class="course-card">
+            <img class="course-image" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Web Development with Flask">
+            <div class="course-content">
+                <div class="course-title">Web Development with Flask</div>
+                <div class="course-desc">Build modern web applications using Python and the Flask framework.</div>
+                <a href="{{ url_for('enroll_course', course_name='Web Development with Flask') }}" style="background:#6C63FF;color:#fff;padding:8px 22px;border:none;border-radius:8px;font-size:1rem;cursor:pointer;transition:background 0.2s;display:inline-block;text-align:center;text-decoration:none;">Apply</a>
+            </div>
+        </div>
+        <div class="course-card">
+            <img class="course-image" src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Machine Learning Basics">
+            <div class="course-content">
+                <div class="course-title">Machine Learning Basics</div>
+                <div class="course-desc">Understand the fundamentals of machine learning and build your first models.</div>
+                <a href="{{ url_for('enroll_course', course_name='Machine Learning Basics') }}" style="background:#6C63FF;color:#fff;padding:8px 22px;border:none;border-radius:8px;font-size:1rem;cursor:pointer;transition:background 0.2s;display:inline-block;text-align:center;text-decoration:none;">Apply</a>
+            </div>
+        </div>
+        <div class="course-card">
+            <img class="course-image" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Project Management Fundamentals">
+            <div class="course-content">
+                <div class="course-title">Project Management Fundamentals</div>
+                <div class="course-desc">Master the basics of project management and team leadership skills.</div>
+                <a href="{{ url_for('enroll_course', course_name='Project Management Fundamentals') }}" style="background:#6C63FF;color:#fff;padding:8px 22px;border:none;border-radius:8px;font-size:1rem;cursor:pointer;transition:background 0.2s;display:inline-block;text-align:center;text-decoration:none;">Apply</a>
+            </div>
+        </div>
+    </div>
+
+    <a class="back-link" href="/">&#8592; Back to Home</a>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-area" style="position:fixed;top:20px;right:20px;z-index:1000;">
+          {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+        <script>
+          setTimeout(() => {
+            document.querySelectorAll('.flash-area').forEach(el => el.remove());
+          }, 3000);
+        </script>
+      {% endif %}
+    {% endwith %}
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Onboarding Step 1 - Basic Info</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  <style>
+    .form-box {
+      max-width: 400px;
+      margin: 50px auto;
+      background: #202a44;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px #1c2539;
+      color: #fff;
+    }
+    .form-box label {
+      font-weight: 600;
+      margin-top: 10px;
+      display: block;
+    }
+    .form-box input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #1c2539;
+      background-color: #1c2539;
+      color: #fff;
+      font-size: 14px;
+    }
+    .btn-submit {
+      margin-top: 20px;
+      width: 100%;
+      background: #a020f0;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn-submit:hover {
+      background: #574bdb;
+    }
+  </style>
+</head>
+<body>
+  <main class="form-box">
+    <h2>Step 1: Basic Information</h2>
+    <form method="POST" action="{{ url_for('onboarding_step1') }}">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+
+
+      <label for="locations">Preferred Locations (comma separated)</label>
+      <input type="text" id="locations" name="locations" placeholder="e.g. Mumbai, Delhi" required />
+
+      <button type="submit" class="btn-submit">Next</button>
+    </form>
+  </main>
+</body>
+</html>

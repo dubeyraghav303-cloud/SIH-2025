@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Finder</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+ <style>
+  /* #skills {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1c2539;
+    color: #fff;
+  } */
+   .choices__inner {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    background-color: #1c2539;
+    padding: 7.5px 7.5px 3.75px;
+    border: 1px solid #1c2539;
+    border-radius: 12px;
+    font-size: 14px;
+    min-height: 44px;
+    overflow:auto;
+
+}
+.choices__list--dropdown, .choices__list[aria-expanded] {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    background-color: #1c2539;
+    border: 1px solid #ddd;
+    top: 100%;
+    margin-top: -1px;
+    border-bottom-left-radius: 2.5px;
+    border-bottom-right-radius: 2.5px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.white-text{
+    color: #fff;
+}
+ </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">InternLink</div>
+    <nav>
+      <a href="{{ url_for('internship_form') }}">Home</a>
+      <a href="{{ url_for('internship_form') }}">Internships</a>
+    <a href="{{ url_for('courses') }}">Courses</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+    </nav>
+    <div class="avatar"></div>
+  </header>
+
+  <main class="container">
+    <h1><span class="white-text">Find Your </span>Perfect Internship</h1>
+    <form method="POST" class="form-box">
+
+      <label>Highest Education Qualification</label>
+      <select name="education" required>
+        <option value="">Select your qualification</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Postgraduate">Postgraduate</option>
+      </select>
+
+      <label>Skills</label>
+      <select id="skills" name="skills" multiple required>
+        {% for skill in skills %}
+          <option value="{{ skill }}">{{ skill }}</option>
+        {% endfor %}
+      </select>
+
+      <label>Sector Interests</label>
+      <select id="sector" name="sector" multiple required>
+        {% for sector in sectors %}
+          <option value="{{ sector }}">{{ sector }}</option>
+        {% endfor %}
+      </select>
+
+      <!-- Removed Preferred Location from input form as per request -->
+      <!--
+      <label>Preferred Location</label>
+      <select id="location" name="location" required>
+        <option value="">Select your preferred location</option>
+        {% for location in locations %}
+          <option value="{{ location }}">{{ location }}</option>
+        {% endfor %}
+      </select>
+      -->
+
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+  <script>
+    const skill= document.getElementById('skills')
+    const sector = document.getElementById('sector');
+    skill.style.backgroundColor = 'pink';
+    sector.style.backgroundColor = '#1c2539';
+    new Choices('#skills', { removeItemButton: true, placeholderValue: 'Select Skills', searchPlaceholderValue: 'Search skills' });
+    new Choices('#sector', { removeItemButton: true, placeholderValue: 'Select Sectors', searchPlaceholderValue: 'Search sectors' });
+  </script>
+</body>
+</html>

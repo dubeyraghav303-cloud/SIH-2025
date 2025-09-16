@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile - InternLink</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">InternLink</div>
+    <nav>
+      <a href="{{ url_for('internship_form') }}">Home</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Edit Profile</h1>
+    <form method="POST" class="form-box">
+      <label>Name</label>
+      <input type="text" name="name" value="{{ profile.name if profile.name else '' }}" required>
+
+      <label>Skills</label>
+      <input type="text" name="skills" value="{{ profile.skills if profile.skills else '' }}">
+
+      <label>Highest Education</label>
+      <input type="text" name="education" value="{{ profile.education if profile.education else '' }}">
+
+      <label>Sector Interests</label>
+      <input type="text" name="sectors" value="{{ profile.sectors if profile.sectors else '' }}">
+
+      <label>Previous Experience</label>
+      <textarea name="experience">{{ profile.experience if profile.experience else '' }}</textarea>
+
+      <label>Institution / College</label>
+      <input type="text" name="institution" value="{{ profile.institution if profile.institution else '' }}">
+
+      <label>Preferred Locations</label>
+      <input type="text" name="preferred_locations" value="{{ profile.preferred_locations if profile.preferred_locations else '' }}">
+
+      <button type="submit" class="btn-submit">Save</button>
+    </form>
+  </main>
+</body>
+</html>

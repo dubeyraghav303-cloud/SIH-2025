@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Preview - {{ job.title }}</title>
+  <style>
+   
+    .letter { white-space: pre-wrap; background:#2e4053; border:1px solid #2e4053; border-radius:12px; padding:20px; line-height:1.6;color: #fff; }
+    .btn-submit{
+      background-color: #a020f0;
+      color: #fff;
+      text-align: center;
+    }
+    
+  </style>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">InternLink</div>
+    <nav>
+      <a href="{{ url_for('internship_form') }}">Home</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Application Preview</h1>
+    <div class="letter">
+To,
+The Hiring Team,
+
+Subject - Application for the position of {{ job.title }}
+
+My name is {{ profile.name or '[Your Name]' }}, and I am currently pursuing {{ profile.education or 'your education' }} from {{ profile.institution or 'your institution' }}. 
+I am applying for the role of {{ job.title }} (Location: {{ job.location }}).
+I have strong foundations in {{ profile.skills or 'your skills' }}. I am eager to contribute to {{ job.sector_interests }} projects and learn from your team.
+They align closely with your requirements: {{ job.required_skills }}.
+I have prior experience in {{ profile.experience or 'relevant areas' }}.
+My preferred locations are {{ profile.preferred_locations or 'any suitable location' }}.
+I have attached my resume for your review, and I would be grateful for the opportunity to discuss how my background fits this role. Thank you for considering my application.
+
+Thank you for considering my application.
+
+Sincerely,
+{{ profile.name or '[Your Name]' }}
+
+ <label for="resume">Upload Resume:</label>
+<input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" onchange="previewFile()" required>
+<div id="preview"></div>
+
+    </div>
+
+    <!-- ✅ Submit Application Button -->
+    <form method="POST" action="{{ url_for('submit_application', internship_id=job.id) }}">
+      <button type="submit" class="btn-submit" style="margin-top:16px;">
+        Submit Application
+      </button>
+    </form>
+   
+<script>
+function previewFile() {
+  const preview = document.getElementById('preview');
+  const file = document.getElementById('resume').files[0];
+  preview.innerHTML = '';
+  if (!file) return;
+
+  const fileType = file.type;
+  if (fileType.startsWith('image/')) {
+    const img = document.createElement('img');
+    img.style.maxWidth = '200px';
+    img.src = URL.createObjectURL(file);
+    preview.appendChild(img);
+  } else if (fileType === 'application/pdf') {
+    const embed = document.createElement('embed');
+    embed.src = URL.createObjectURL(file);
+    embed.type = 'application/pdf';
+    embed.width = '300';
+    embed.height = '400';
+    preview.appendChild(embed);
+  } else {
+    // For doc/docx or other files, just show the filename
+    const p = document.createElement('p');
+    p.textContent = 'Selected file: ' + file.name;
+    preview.appendChild(p);
+  }
+}
+</script>
+  </main>
+
+  <!-- ✅ Flash Messages for success overlay -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-area">
+        {% for category, message in messages %}
+          <div class="flash flash-{{ category }}">{{ message }}</div>
+        {% endfor %}
+      </div>
+      
+      <script>
+        setTimeout(() => {
+          document.querySelectorAll('.flash-area').forEach(el => el.remove());
+        }, 2000);
+      </script>
+    {% endif %}
+  {% endwith %}
+  
+</body>
+</html>

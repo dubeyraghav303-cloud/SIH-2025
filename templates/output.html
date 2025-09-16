@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Recommendations</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+   <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #002147;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 25px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .card {
+            background: #1f2041;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: #1f2041;
+            
+        }
+        .career-insights {
+            margin-top: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .btn-submit{
+            width: 50px;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            background-color: #a020f0;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 15px;
+            text-align: center;
+            text-decoration: none;
+            
+        }
+        
+    </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">InternLink</div>
+    <nav>
+      <a href="{{ url_for('internship_form') }}">Home</a>
+      <a href="{{ url_for('internship_form') }}">Internships</a>
+      <a href="{{ url_for('internship_form') }}">Recommendations</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+    </nav>
+    <div class="avatar"></div>
+  </header>
+
+  <main class="container">
+    <h1>Your Top Internship Matches</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-area">
+          {% for category, message in messages %}
+          <div class="flash flash-{{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+  <div class="location-filter-section">
+    <label for="location_filter">Filter by Location:</label>
+    <select id="location_filter" onchange="filterByLocation()">
+      <option value="">All Locations</option>
+      {% for loc in locations %}
+        <option value="{{ loc }}">{{ loc }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <section class="recommendations">
+    {% for job in results %}
+    <div class="card" data-location="{{ job.location }}">
+      <div class="card-text">
+        <h3>{{ job.title }}</h3>
+        <p><b>Company:</b> {{ job.company }}</p>
+        <p><b>Description:</b> {{ job.description }}</p>
+        <p><b>Sector:</b> {{ job.sector_interests }}</p>
+        <p><b>Skills Required:</b> {{ job.required_skills }}</p>
+        <p><b>Location:</b> {{ job.location }}</p>
+        <p><b>Stipend (INR):</b> {{ job.stipend }}</p>
+        <p><b>Match Score:</b> {{ "%.2f"|format(job.score * 100) }}%</p>
+
+        <!-- Skill Gap Highlight -->
+        {% if job.missing_skills %}
+          <p class="missing"><b>Missing skills:</b> {{ job.missing_skills }}</p>
+        {% else %}
+          <p class="matched-all">You match all required skills.</p>
+        {% endif %}
+      </div>
+
+      <div class="card-actions">
+        <!-- Save / Unsave toggle -->
+        {% if job.id in saved_ids %}
+          <form action="{{ url_for('save_toggle', internship_id=job.id) }}" method="post">
+            <button type="submit" class="btn-outline">Remove from saved</button>
+          </form>
+        {% else %}
+          <form action="{{ url_for('save_toggle', internship_id=job.id) }}" method="post">
+            <button type="submit" class="btn-outline">Save</button>
+          </form>
+        {% endif %}
+
+        <!-- One-Click Apply -->
+        <a class="btn-submit" href="{{ url_for('apply_preview', internship_id=job.id) }}">Apply</a>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+    <a href="{{ url_for('internship_form') }}" class="btn-more">Back to Home Page</a>
+  </main>
+
+  <script>
+    function filterByLocation() {
+      const selectedLocation = document.getElementById('location_filter').value;
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {
+        const location = card.getAttribute('data-location');
+        if (selectedLocation === '' || location === selectedLocation) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+InternshipID,Company,RoleTitle,Skills,Sector,City,State,Paid,Stipend_INR,Duration_months,PostingDate,Source
+PMIS-100001,Tech Mahindra,Industrial Engineering Intern,"PLC, LEAN, Automation",Manufacturing,Chennai,Tamil Nadu,Yes,5000,12,2024-11-22,PMIS_portal_inferred/synthesized
+PMIS-100002,Nestle India,Finance Intern,"Risk Analysis, Excel, Python",Banking & Finance,Bengaluru,Karnataka,Yes,5000,12,2025-01-20,PMIS_portal_inferred/synthesized
+PMIS-100003,Bharti Airtel,Backend Developer Intern,"REST APIs, Git, Algorithms",IT & Software,Gurgaon,Haryana,Yes,5000,12,2025-05-18,PMIS_portal_inferred/synthesized
+PMIS-100004,JSW Steel,Brand Marketing Intern,"Brand Management, Market Research, Excel",FMCG,Jaipur,Rajasthan,Yes,5000,12,2025-02-20,PMIS_portal_inferred/synthesized
+PMIS-100005,Wipro,RF Engineering Intern,"Network Basics, Signal Processing, Python",Telecom,Hyderabad,Telangana,Yes,5000,12,2025-04-02,PMIS_portal_inferred/synthesized
+PMIS-100006,Axis Bank,Brand Marketing Intern,"Excel, Market Research, Marketing",FMCG,Bhopal,Madhya Pradesh,Yes,5000,12,2024-11-10,PMIS_portal_inferred/synthesized
+PMIS-100007,PhonePe,Supply Chain Intern,"Excel, Route Optimization, Operations",Logistics & Travel,Delhi,Delhi,Yes,5000,12,2025-09-04,PMIS_portal_inferred/synthesized
+PMIS-100008,Bharti Airtel,Operations Intern,"Excel, Operations, SQL",Logistics & Travel,Noida,Uttar Pradesh,Yes,5000,12,2025-05-21,PMIS_portal_inferred/synthesized
+PMIS-100009,Tech Mahindra,HR Intern,"Recruitment, MS Office, Communication",HR & Admin,Noida,Uttar Pradesh,Yes,5000,12,2025-09-25,PMIS_portal_inferred/synthesized
+PMIS-100010,Nestle India,Finance Intern,"Financial Modelling, Python, Excel",Banking & Finance,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-04-13,PMIS_portal_inferred/synthesized
+PMIS-100011,Adani Enterprises,HSE Intern,"Chemical Engineering, MATLAB, Process Design",Energy & Oil & Gas,Jaipur,Rajasthan,Yes,5000,12,2025-04-24,PMIS_portal_inferred/synthesized
+PMIS-100012,Adani Enterprises,Risk Analyst Intern,"Python, SQL, Excel",Banking & Finance,Nagpur,Maharashtra,Yes,5000,12,2025-06-13,PMIS_portal_inferred/synthesized
+PMIS-100013,ITC Limited,UX Design Intern,"Sketch, Figma, User Research",Design & UX,Indore,Madhya Pradesh,Yes,5000,12,2025-07-03,PMIS_portal_inferred/synthesized
+PMIS-100014,Vedanta,Business Analyst Intern,"scikit-learn, Pandas, Python",Data Science & Analytics,Kochi,Kerala,Yes,5000,12,2025-06-10,PMIS_portal_inferred/synthesized
+PMIS-100015,Mahindra & Mahindra,Mechanical Design Intern,"MATLAB, SolidWorks, Embedded C",Automotive,Chandigarh,Punjab,Yes,5000,12,2025-08-02,PMIS_portal_inferred/synthesized
+PMIS-100016,HDFC Bank,Social Media Intern,"Google Analytics, Social Media, SEO",Marketing & Communications,Indore,Madhya Pradesh,Yes,5000,12,2024-10-06,PMIS_portal_inferred/synthesized
+PMIS-100017,Nestle India,Quality Assurance Intern,"PLC, LEAN, Quality Control",Manufacturing,Chandigarh,Punjab,Yes,5000,12,2024-12-20,PMIS_portal_inferred/synthesized
+PMIS-100018,Flipkart,QA Intern,"Git, SQL, Python",IT & Software,Nagpur,Maharashtra,Yes,5000,12,2025-03-02,PMIS_portal_inferred/synthesized
+PMIS-100019,Tech Mahindra,Network Engineering Intern,"Linux, Network Basics, Signal Processing",Telecom,Vadodara,Gujarat,Yes,5000,12,2025-03-15,PMIS_portal_inferred/synthesized
+PMIS-100020,Zomato,Software Engineering Intern,"Data Structures, REST APIs, SQL",IT & Software,Delhi,Delhi,Yes,5000,12,2025-02-01,PMIS_portal_inferred/synthesized
+PMIS-100021,Tata Steel,Risk Analyst Intern,"Risk Analysis, Excel, SQL",Banking & Finance,Chennai,Tamil Nadu,Yes,5000,12,2024-12-05,PMIS_portal_inferred/synthesized
+PMIS-100022,Cipla,Product Management Intern,"Stakeholder Communication, Analytics, JIRA",Product Management,Pune,Maharashtra,Yes,5000,12,2025-07-04,PMIS_portal_inferred/synthesized
+PMIS-100023,Indian Oil Corporation,RF Engineering Intern,"Signal Processing, Linux, Python",Telecom,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-06-22,PMIS_portal_inferred/synthesized
+PMIS-100024,Biocon,Industrial Engineering Intern,"Quality Control, LEAN, Automation",Manufacturing,Mumbai,Maharashtra,Yes,5000,12,2025-07-29,PMIS_portal_inferred/synthesized
+PMIS-100025,PhonePe,Process Engineering Intern,"Chemical Engineering, MATLAB, Process Design",Energy & Oil & Gas,Gurgaon,Haryana,Yes,5000,12,2024-11-04,PMIS_portal_inferred/synthesized
+PMIS-100026,Maruti Suzuki India,Legal Research Intern,"Compliance, Legal Research, Drafting",Legal & Compliance,Thiruvananthapuram,Kerala,Yes,5000,12,2025-01-18,PMIS_portal_inferred/synthesized
+PMIS-100027,Paytm,Clinical Data Intern,"Lab Techniques, R, Data Analysis",Healthcare & Pharma,Pune,Maharashtra,Yes,5000,12,2024-11-18,PMIS_portal_inferred/synthesized
+PMIS-100028,L&T Technology Services,Business Analyst Intern,"SQL, Data Visualization, Pandas",Data Science & Analytics,Delhi,Delhi,Yes,5000,12,2025-09-10,PMIS_portal_inferred/synthesized
+PMIS-100029,Lupin,Industrial Engineering Intern,"Automation, PLC, Quality Control",Manufacturing,Hyderabad,Telangana,Yes,5000,12,2025-02-05,PMIS_portal_inferred/synthesized
+PMIS-100030,Jubilant Foodworks,RF Engineering Intern,"Python, Signal Processing, Network Basics",Telecom,Noida,Uttar Pradesh,Yes,5000,12,2025-05-25,PMIS_portal_inferred/synthesized
+PMIS-100031,Mahindra & Mahindra Financial Services,Credit Analysis Intern,"Python, Excel, Risk Analysis",Banking & Finance,Nagpur,Maharashtra,Yes,5000,12,2025-07-04,PMIS_portal_inferred/synthesized
+PMIS-100032,Tata Consultancy Services,Risk Analyst Intern,"Financial Modelling, Risk Analysis, Python",Banking & Finance,Thiruvananthapuram,Kerala,Yes,5000,12,2025-01-18,PMIS_portal_inferred/synthesized
+PMIS-100033,ITC Limited,Mechanical Design Intern,"Mechanical Design, CAD, MATLAB",Automotive,Noida,Uttar Pradesh,Yes,5000,12,2025-05-21,PMIS_portal_inferred/synthesized
+PMIS-100034,Pidilite Industries,Business Analyst Intern,"Pandas, Data Visualization, SQL",Data Science & Analytics,Pune,Maharashtra,Yes,5000,12,2024-10-30,PMIS_portal_inferred/synthesized
+PMIS-100035,JSW Steel,Vehicle Testing Intern,"Embedded C, CAD, Mechanical Design",Automotive,Surat,Gujarat,Yes,5000,12,2025-06-02,PMIS_portal_inferred/synthesized
+PMIS-100036,Ola Cabs,Operations Intern,"Communication, Excel, Analytics",Retail & E-commerce,Bengaluru,Karnataka,Yes,5000,12,2025-08-01,PMIS_portal_inferred/synthesized
+PMIS-100037,HDFC Bank,HSE Intern,"Chemical Engineering, MATLAB, Process Design",Energy & Oil & Gas,Vadodara,Gujarat,Yes,5000,12,2024-11-11,PMIS_portal_inferred/synthesized
+PMIS-100038,Bajaj Finserv,Compliance Intern,"Legal Research, Drafting, Compliance",Legal & Compliance,Noida,Uttar Pradesh,Yes,5000,12,2025-04-21,PMIS_portal_inferred/synthesized
+PMIS-100039,Infosys,Supply Chain Intern,"Route Optimization, Operations, SQL",Logistics & Travel,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-08-15,PMIS_portal_inferred/synthesized
+PMIS-100040,Tata Steel,Industrial Engineering Intern,"Quality Control, PLC, Automation",Manufacturing,Chennai,Tamil Nadu,Yes,5000,12,2025-03-28,PMIS_portal_inferred/synthesized
+PMIS-100041,HDFC Bank,HSE Intern,"Process Design, Chemical Engineering, MATLAB",Energy & Oil & Gas,Indore,Madhya Pradesh,Yes,5000,12,2025-09-26,PMIS_portal_inferred/synthesized
+PMIS-100042,Bajaj Auto,QA Intern,"REST APIs, Python, SQL",IT & Software,Noida,Uttar Pradesh,Yes,5000,12,2024-11-29,PMIS_portal_inferred/synthesized
+PMIS-100043,L&T Technology Services,Clinical Data Intern,"Data Analysis, R, Research",Healthcare & Pharma,Jaipur,Rajasthan,Yes,5000,12,2025-01-13,PMIS_portal_inferred/synthesized
+PMIS-100044,Nestle India,Market Research Intern,"Market Research, Marketing, Excel",FMCG,Nagpur,Maharashtra,Yes,5000,12,2025-05-05,PMIS_portal_inferred/synthesized
+PMIS-100045,Adani Enterprises,Mechanical Design Intern,"Embedded C, MATLAB, SolidWorks",Automotive,Noida,Uttar Pradesh,Yes,5000,12,2024-12-22,PMIS_portal_inferred/synthesized
+PMIS-100046,BPCL,Product Design Intern,"Figma, User Research, Sketch",Design & UX,Chennai,Tamil Nadu,Yes,5000,12,2025-07-07,PMIS_portal_inferred/synthesized
+PMIS-100047,Maruti Suzuki India,HR Intern,"Interviewing, Communication, Recruitment",HR & Admin,Ahmedabad,Gujarat,Yes,5000,12,2025-04-05,PMIS_portal_inferred/synthesized
+PMIS-100048,Maruti Suzuki India,HR Intern,"MS Office, Recruitment, Communication",HR & Admin,Lucknow,Uttar Pradesh,Yes,5000,12,2025-07-14,PMIS_portal_inferred/synthesized
+PMIS-100049,Bajaj Finserv,R&D Intern,"Lab Techniques, Research, R",Healthcare & Pharma,Mumbai,Maharashtra,Yes,5000,12,2024-12-31,PMIS_portal_inferred/synthesized
+PMIS-100050,BPCL,Compliance Intern,"Compliance, Legal Research, Drafting",Legal & Compliance,Kolkata,West Bengal,Yes,5000,12,2025-09-25,PMIS_portal_inferred/synthesized
+PMIS-100051,L&T Technology Services,Content Marketing Intern,"Google Analytics, Content Writing, Social Media",Marketing & Communications,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-03-29,PMIS_portal_inferred/synthesized
+PMIS-100052,Bajaj Auto,Process Engineering Intern,"Chemical Engineering, MATLAB, Process Design",Energy & Oil & Gas,Jaipur,Rajasthan,Yes,5000,12,2025-02-20,PMIS_portal_inferred/synthesized
+PMIS-100053,HDFC Bank,Market Research Intern,"Excel, Market Research, Brand Management",FMCG,Mumbai,Maharashtra,Yes,5000,12,2024-11-29,PMIS_portal_inferred/synthesized
+PMIS-100054,Vedanta,Category Analyst Intern,"SQL, Excel, Analytics",Retail & E-commerce,Vadodara,Gujarat,Yes,5000,12,2025-05-11,PMIS_portal_inferred/synthesized
+PMIS-100055,Axis Bank,Compliance Intern,"Compliance, Legal Research, Drafting",Legal & Compliance,Surat,Gujarat,Yes,5000,12,2025-01-06,PMIS_portal_inferred/synthesized
+PMIS-100056,Vedanta,Vehicle Testing Intern,"Mechanical Design, CAD, Embedded C",Automotive,Indore,Madhya Pradesh,Yes,5000,12,2025-09-17,PMIS_portal_inferred/synthesized
+PMIS-100057,ONGC,RF Engineering Intern,"Signal Processing, Network Basics, Python",Telecom,Vadodara,Gujarat,Yes,5000,12,2025-03-10,PMIS_portal_inferred/synthesized
+PMIS-100058,Cipla,Quality Assurance Intern,"PLC, Automation, Quality Control",Manufacturing,Jaipur,Rajasthan,Yes,5000,12,2025-04-25,PMIS_portal_inferred/synthesized
+PMIS-100059,PepsiCo India,Operations Intern,"Excel, SQL, Route Optimization",Logistics & Travel,Kolkata,West Bengal,Yes,5000,12,2025-08-12,PMIS_portal_inferred/synthesized
+PMIS-100060,Tata Steel,Supply Chain Intern,"Operations, Excel, Route Optimization",Logistics & Travel,Pune,Maharashtra,Yes,5000,12,2025-05-09,PMIS_portal_inferred/synthesized
+PMIS-100061,JSW Steel,Compliance Intern,"Drafting, Compliance, Legal Research",Legal & Compliance,Kochi,Kerala,Yes,5000,12,2025-05-31,PMIS_portal_inferred/synthesized
+PMIS-100062,BPCL,Category Analyst Intern,"Excel, SQL, Analytics",Retail & E-commerce,Nagpur,Maharashtra,Yes,5000,12,2025-08-14,PMIS_portal_inferred/synthesized
+PMIS-100063,Kotak Mahindra Bank,Risk Analyst Intern,"SQL, Financial Modelling, Excel",Banking & Finance,Chennai,Tamil Nadu,Yes,5000,12,2024-10-13,PMIS_portal_inferred/synthesized
+PMIS-100064,Maruti Suzuki India,HSE Intern,"MATLAB, Chemical Engineering, Process Design",Energy & Oil & Gas,Chandigarh,Punjab,Yes,5000,12,2025-08-19,PMIS_portal_inferred/synthesized
+PMIS-100065,Tata Steel,RF Engineering Intern,"Signal Processing, Python, Network Basics",Telecom,Chennai,Tamil Nadu,Yes,5000,12,2025-09-01,PMIS_portal_inferred/synthesized
+PMIS-100066,PepsiCo India,Software Engineering Intern,"Algorithms, SQL, Git",IT & Software,Kochi,Kerala,Yes,5000,12,2025-05-26,PMIS_portal_inferred/synthesized
+PMIS-100067,Larsen & Toubro,Process Engineering Intern,"Process Design, Chemical Engineering, MATLAB",Energy & Oil & Gas,Kochi,Kerala,Yes,5000,12,2025-07-14,PMIS_portal_inferred/synthesized
+PMIS-100068,Hero MotoCorp,Compliance Intern,"Compliance, Drafting, Legal Research",Legal & Compliance,Kolkata,West Bengal,Yes,5000,12,2025-06-01,PMIS_portal_inferred/synthesized
+PMIS-100069,Biocon,Brand Marketing Intern,"Market Research, Excel, Brand Management",FMCG,Nagpur,Maharashtra,Yes,5000,12,2025-01-31,PMIS_portal_inferred/synthesized
+PMIS-100070,Adani Enterprises,UX Design Intern,"Sketch, Figma, Adobe XD",Design & UX,Jaipur,Rajasthan,Yes,5000,12,2025-03-13,PMIS_portal_inferred/synthesized
+PMIS-100071,Paytm,Risk Analyst Intern,"Financial Modelling, Python, Risk Analysis",Banking & Finance,Chennai,Tamil Nadu,Yes,5000,12,2025-09-27,PMIS_portal_inferred/synthesized
+PMIS-100072,Reliance Retail,Credit Analysis Intern,"Risk Analysis, SQL, Python",Banking & Finance,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-05-01,PMIS_portal_inferred/synthesized
+PMIS-100073,Larsen & Toubro,RF Engineering Intern,"Signal Processing, Linux, Network Basics",Telecom,Surat,Gujarat,Yes,5000,12,2025-04-13,PMIS_portal_inferred/synthesized
+PMIS-100074,Amazon India,QA Intern,"Data Structures, Algorithms, Git",IT & Software,Indore,Madhya Pradesh,Yes,5000,12,2025-07-07,PMIS_portal_inferred/synthesized
+PMIS-100075,Hero MotoCorp,HSE Intern,"Chemical Engineering, Process Design, MATLAB",Energy & Oil & Gas,Thiruvananthapuram,Kerala,Yes,5000,12,2024-10-15,PMIS_portal_inferred/synthesized
+PMIS-100076,Asian Paints,Compliance Intern,"Compliance, Legal Research, Drafting",Legal & Compliance,Chennai,Tamil Nadu,Yes,5000,12,2025-08-15,PMIS_portal_inferred/synthesized
+PMIS-100077,Paytm,DevOps Intern,"Git, REST APIs, Python",IT & Software,Bengaluru,Karnataka,Yes,5000,12,2025-08-26,PMIS_portal_inferred/synthesized
+PMIS-100078,Sun Pharma,Clinical Data Intern,"Lab Techniques, Research, R",Healthcare & Pharma,Bhopal,Madhya Pradesh,Yes,5000,12,2025-03-17,PMIS_portal_inferred/synthesized
+PMIS-100079,Reliance Retail,Product Design Intern,"Sketch, Adobe XD, User Research",Design & UX,Chandigarh,Punjab,Yes,5000,12,2025-02-07,PMIS_portal_inferred/synthesized
+PMIS-100080,Mahindra & Mahindra,Product Management Intern,"Roadmapping, JIRA, Analytics",Product Management,Nagpur,Maharashtra,Yes,5000,12,2024-11-05,PMIS_portal_inferred/synthesized
+PMIS-100081,GAIL India,Mechanical Design Intern,"MATLAB, SolidWorks, CAD",Automotive,Vadodara,Gujarat,Yes,5000,12,2024-12-18,PMIS_portal_inferred/synthesized
+PMIS-100082,Mahindra & Mahindra Financial Services,Clinical Data Intern,"Research, Data Analysis, R",Healthcare & Pharma,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-09-24,PMIS_portal_inferred/synthesized
+PMIS-100083,Vedanta,HR Intern,"Communication, Interviewing, MS Office",HR & Admin,Hyderabad,Telangana,Yes,5000,12,2025-07-24,PMIS_portal_inferred/synthesized
+PMIS-100084,Reliance Industries,Supply Chain Intern,"SQL, Route Optimization, Operations",Logistics & Travel,Bengaluru,Karnataka,Yes,5000,12,2025-07-31,PMIS_portal_inferred/synthesized
+PMIS-100085,PepsiCo India,Process Engineering Intern,"MATLAB, Process Design, Chemical Engineering",Energy & Oil & Gas,Surat,Gujarat,Yes,5000,12,2024-10-22,PMIS_portal_inferred/synthesized
+PMIS-100086,Axis Bank,Business Analyst Intern,"Python, scikit-learn, Data Visualization",Data Science & Analytics,Chandigarh,Punjab,Yes,5000,12,2025-06-08,PMIS_portal_inferred/synthesized
+PMIS-100087,L&T Technology Services,Business Analyst Intern,"SQL, Pandas, Data Visualization",Data Science & Analytics,Kolkata,West Bengal,Yes,5000,12,2025-06-25,PMIS_portal_inferred/synthesized
+PMIS-100088,Lupin,Market Research Intern,"Excel, Brand Management, Market Research",FMCG,Jaipur,Rajasthan,Yes,5000,12,2025-02-03,PMIS_portal_inferred/synthesized
+PMIS-100089,Mahindra & Mahindra,Market Research Intern,"Brand Management, Excel, Market Research",FMCG,Jaipur,Rajasthan,Yes,5000,12,2024-10-15,PMIS_portal_inferred/synthesized
+PMIS-100090,Zomato,Legal Research Intern,"Drafting, Legal Research, Compliance",Legal & Compliance,Noida,Uttar Pradesh,Yes,5000,12,2025-03-24,PMIS_portal_inferred/synthesized
+PMIS-100091,Adani Enterprises,Brand Marketing Intern,"Brand Management, Marketing, Market Research",FMCG,Chandigarh,Punjab,Yes,5000,12,2025-06-08,PMIS_portal_inferred/synthesized
+PMIS-100092,PhonePe,HSE Intern,"MATLAB, Process Design, Chemical Engineering",Energy & Oil & Gas,Mumbai,Maharashtra,Yes,5000,12,2024-11-17,PMIS_portal_inferred/synthesized
+PMIS-100093,Pidilite Industries,HSE Intern,"MATLAB, Chemical Engineering, Process Design",Energy & Oil & Gas,Surat,Gujarat,Yes,5000,12,2025-04-07,PMIS_portal_inferred/synthesized
+PMIS-100094,Amazon India,Recruitment Intern,"Recruitment, MS Office, Interviewing",HR & Admin,Noida,Uttar Pradesh,Yes,5000,12,2025-03-06,PMIS_portal_inferred/synthesized
+PMIS-100095,Vedanta,Process Engineering Intern,"MATLAB, Chemical Engineering, Process Design",Energy & Oil & Gas,Hyderabad,Telangana,Yes,5000,12,2025-07-02,PMIS_portal_inferred/synthesized
+PMIS-100096,Indian Oil Corporation,Operations Intern,"Merchandising, Analytics, Communication",Retail & E-commerce,Surat,Gujarat,Yes,5000,12,2025-06-26,PMIS_portal_inferred/synthesized
+PMIS-100097,Hero MotoCorp,Operations Intern,"Excel, SQL, Operations",Logistics & Travel,Lucknow,Uttar Pradesh,Yes,5000,12,2024-12-31,PMIS_portal_inferred/synthesized
+PMIS-100098,Bajaj Auto,Backend Developer Intern,"Data Structures, Python, Git",IT & Software,Indore,Madhya Pradesh,Yes,5000,12,2025-02-27,PMIS_portal_inferred/synthesized
+PMIS-100099,PepsiCo India,Clinical Data Intern,"Research, R, Lab Techniques",Healthcare & Pharma,Thiruvananthapuram,Kerala,Yes,5000,12,2025-06-03,PMIS_portal_inferred/synthesized
+PMIS-100100,Biocon,Legal Research Intern,"Legal Research, Drafting, Compliance",Legal & Compliance,Hyderabad,Telangana,Yes,5000,12,2024-11-03,PMIS_portal_inferred/synthesized
+PMIS-100101,ITC Limited,Product Management Intern,"Roadmapping, Analytics, Stakeholder Communication",Product Management,Surat,Gujarat,Yes,5000,12,2025-03-05,PMIS_portal_inferred/synthesized
+PMIS-100102,Mahindra & Mahindra,Process Engineering Intern,"MATLAB, Process Design, Chemical Engineering",Energy & Oil & Gas,Kochi,Kerala,Yes,5000,12,2025-04-13,PMIS_portal_inferred/synthesized
+PMIS-100103,Biocon,Product Design Intern,"User Research, Adobe XD, Figma",Design & UX,Vadodara,Gujarat,Yes,5000,12,2024-11-20,PMIS_portal_inferred/synthesized
+PMIS-100104,Indian Oil Corporation,Network Engineering Intern,"Linux, Signal Processing, Network Basics",Telecom,Kolkata,West Bengal,Yes,5000,12,2025-01-31,PMIS_portal_inferred/synthesized
+PMIS-100105,Muthoot Finance,Risk Analyst Intern,"Excel, Risk Analysis, Financial Modelling",Banking & Finance,Vadodara,Gujarat,Yes,5000,12,2025-05-29,PMIS_portal_inferred/synthesized
+PMIS-100106,Pidilite Industries,Mechanical Design Intern,"Embedded C, SolidWorks, Mechanical Design",Automotive,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2024-11-06,PMIS_portal_inferred/synthesized
+PMIS-100107,Nestle India,HSE Intern,"MATLAB, Chemical Engineering, Process Design",Energy & Oil & Gas,Hyderabad,Telangana,Yes,5000,12,2025-07-06,PMIS_portal_inferred/synthesized
+PMIS-100108,Bharti Airtel,Clinical Data Intern,"Lab Techniques, Research, Data Analysis",Healthcare & Pharma,Kolkata,West Bengal,Yes,5000,12,2025-03-07,PMIS_portal_inferred/synthesized
+PMIS-100109,Hero MotoCorp,Supply Chain Intern,"Operations, Excel, Route Optimization",Logistics & Travel,Bhopal,Madhya Pradesh,Yes,5000,12,2025-02-17,PMIS_portal_inferred/synthesized
+PMIS-100110,Ola Cabs,Associate Product Intern,"Roadmapping, Stakeholder Communication, Analytics",Product Management,Chandigarh,Punjab,Yes,5000,12,2025-03-15,PMIS_portal_inferred/synthesized
+PMIS-100111,Hero MotoCorp,Brand Marketing Intern,"Marketing, Excel, Market Research",FMCG,Noida,Uttar Pradesh,Yes,5000,12,2025-07-23,PMIS_portal_inferred/synthesized
+PMIS-100112,Maruti Suzuki India,Merchandising Intern,"Communication, Analytics, Merchandising",Retail & E-commerce,Kolkata,West Bengal,Yes,5000,12,2025-07-27,PMIS_portal_inferred/synthesized
+PMIS-100113,Sun Pharma,Product Management Intern,"Analytics, JIRA, Stakeholder Communication",Product Management,Jaipur,Rajasthan,Yes,5000,12,2025-03-14,PMIS_portal_inferred/synthesized
+PMIS-100114,Cipla,Industrial Engineering Intern,"PLC, Quality Control, Automation",Manufacturing,Ahmedabad,Gujarat,Yes,5000,12,2025-09-05,PMIS_portal_inferred/synthesized
+PMIS-100115,ITC Limited,Embedded Systems Intern,"CAD, Embedded C, MATLAB",Automotive,Jaipur,Rajasthan,Yes,5000,12,2024-11-29,PMIS_portal_inferred/synthesized
+PMIS-100116,GAIL India,Content Marketing Intern,"Google Analytics, SEO, Content Writing",Marketing & Communications,Pune,Maharashtra,Yes,5000,12,2025-06-23,PMIS_portal_inferred/synthesized
+PMIS-100117,Godrej,Associate Product Intern,"Roadmapping, Analytics, JIRA",Product Management,Indore,Madhya Pradesh,Yes,5000,12,2024-12-07,PMIS_portal_inferred/synthesized
+PMIS-100118,Pidilite Industries,Product Design Intern,"Figma, User Research, Sketch",Design & UX,Kolkata,West Bengal,Yes,5000,12,2025-03-09,PMIS_portal_inferred/synthesized
+PMIS-100119,PhonePe,DevOps Intern,"Python, SQL, REST APIs",IT & Software,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2024-11-30,PMIS_portal_inferred/synthesized
+PMIS-100120,Lupin,Clinical Data Intern,"Data Analysis, R, Lab Techniques",Healthcare & Pharma,Chandigarh,Punjab,Yes,5000,12,2025-06-05,PMIS_portal_inferred/synthesized
+PMIS-100121,Amazon India,HSE Intern,"MATLAB, Chemical Engineering, Process Design",Energy & Oil & Gas,Pune,Maharashtra,Yes,5000,12,2025-08-03,PMIS_portal_inferred/synthesized
+PMIS-100122,Ola Cabs,R&D Intern,"Data Analysis, Lab Techniques, R",Healthcare & Pharma,Kochi,Kerala,Yes,5000,12,2025-02-14,PMIS_portal_inferred/synthesized
+PMIS-100123,Tata Consultancy Services,Supply Chain Intern,"SQL, Operations, Excel",Logistics & Travel,Indore,Madhya Pradesh,Yes,5000,12,2025-06-05,PMIS_portal_inferred/synthesized
+PMIS-100124,Axis Bank,Compliance Intern,"Drafting, Compliance, Legal Research",Legal & Compliance,Gurgaon,Haryana,Yes,5000,12,2025-07-20,PMIS_portal_inferred/synthesized
+PMIS-100125,Asian Paints,HSE Intern,"Chemical Engineering, Process Design, MATLAB",Energy & Oil & Gas,Bhopal,Madhya Pradesh,Yes,5000,12,2025-04-16,PMIS_portal_inferred/synthesized
+PMIS-100126,Cipla,Clinical Data Intern,"Research, R, Lab Techniques",Healthcare & Pharma,Hyderabad,Telangana,Yes,5000,12,2025-05-14,PMIS_portal_inferred/synthesized
+PMIS-100127,L&T Technology Services,UX Design Intern,"Adobe XD, User Research, Figma",Design & UX,Bengaluru,Karnataka,Yes,5000,12,2025-05-29,PMIS_portal_inferred/synthesized
+PMIS-100128,Vedanta,Compliance Intern,"Compliance, Legal Research, Drafting",Legal & Compliance,Indore,Madhya Pradesh,Yes,5000,12,2025-04-13,PMIS_portal_inferred/synthesized
+PMIS-100129,ICICI Bank,Product Management Intern,"Roadmapping, Analytics, JIRA",Product Management,Gurgaon,Haryana,Yes,5000,12,2024-11-16,PMIS_portal_inferred/synthesized
+PMIS-100130,Sun Pharma,Industrial Engineering Intern,"Automation, LEAN, Quality Control",Manufacturing,Mumbai,Maharashtra,Yes,5000,12,2024-10-24,PMIS_portal_inferred/synthesized
+PMIS-100131,ICICI Bank,Embedded Systems Intern,"Embedded C, SolidWorks, MATLAB",Automotive,Chennai,Tamil Nadu,Yes,5000,12,2025-02-03,PMIS_portal_inferred/synthesized
+PMIS-100132,MakeMyTrip,Data Science Intern,"Pandas, Data Visualization, Python",Data Science & Analytics,Vadodara,Gujarat,Yes,5000,12,2025-04-14,PMIS_portal_inferred/synthesized
+PMIS-100133,HCL Technologies,HSE Intern,"MATLAB, Chemical Engineering, Process Design",Energy & Oil & Gas,Visakhapatnam,Andhra Pradesh,Yes,5000,12,2025-08-23,PMIS_portal_inferred/synthesized
+PMIS-100134,Vedanta,Product Design Intern,"Figma, Adobe XD, Sketch",Design & UX,Indore,Madhya Pradesh,Yes,5000,12,2024-12-20,PMIS_portal_inferred/synthesized
+PMIS-100135,HDFC Bank,Product Design Intern,"Sketch, User Research, Adobe XD",Design & UX,Noida,Uttar Pradesh,Yes,5000,12,2025-05-22,PMIS_portal_inferred/synthesized
+PMIS-100136,Bajaj Auto,RF Engineering Intern,"Signal Processing, Network Basics, Linux",Telecom,Bhopal,Madhya Pradesh,Yes,5000,12,2025-07-20,PMIS_portal_inferred/synthesized
+PMIS-100137,Axis Bank,Supply Chain Intern,"Operations, Route Optimization, Excel",Logistics & Travel,Noida,Uttar Pradesh,Yes,5000,12,2024-10-05,PMIS_portal_inferred/synthesized
+PMIS-100138,Tata Steel,Vehicle Testing Intern,"Mechanical Design, Embedded C, CAD",Automotive,Vadodara,Gujarat,Yes,5000,12,2025-03-30,PMIS_portal_inferred/synthesized
+PMIS-100139,Bharti Airtel,RF Engineering Intern,"Python, Linux, Network Basics",Telecom,Nagpur,Maharashtra,Yes,5000,12,2025-08-27,PMIS_portal_inferred/synthesized
+PMIS-100140,Maruti Suzuki India,Supply Chain Intern,"Operations, Route Optimization, Excel",Logistics & Travel,Chennai,Tamil Nadu,Yes,5000,12,2024-11-16,PMIS_portal_inferred/synthesized
+PMIS-100141,Pidilite Industries,Compliance Intern,"Legal Research, Compliance, Drafting",Legal & Compliance,Indore,Madhya Pradesh,Yes,5000,12,2025-04-06,PMIS_portal_inferred/synthesized
+PMIS-100142,MakeMyTrip,Brand Marketing Intern,"Market Research, Brand Management, Excel",FMCG,Jaipur,Rajasthan,Yes,5000,12,2024-11-28,PMIS_portal_inferred/synthesized
+PMIS-100143,Flipkart,Risk Analyst Intern,"Financial Modelling, Risk Analysis, SQL",Banking & Finance,Lucknow,Uttar Pradesh,Yes,5000,12,2024-11-16,PMIS_portal_inferred/synthesized
+PMIS-100144,ITC Limited,QA Intern,"Git, Python, Algorithms",IT & Software,Lucknow,Uttar Pradesh,Yes,5000,12,2025-09-10,PMIS_portal_inferred/synthesized
+PMIS-100145,BPCL,Market Research Intern,"Market Research, Marketing, Excel",FMCG,Thiruvananthapuram,Kerala,Yes,5000,12,2024-10-13,PMIS_portal_inferred/synthesized
+PMIS-100146,HCL Technologies,Legal Research Intern,"Compliance, Legal Research, Drafting",Legal & Compliance,Ahmedabad,Gujarat,Yes,5000,12,2025-08-29,PMIS_portal_inferred/synthesized
+PMIS-100147,Bajaj Finserv,Industrial Engineering Intern,"LEAN, Automation, Quality Control",Manufacturing,Thiruvananthapuram,Kerala,Yes,5000,12,2024-11-29,PMIS_portal_inferred/synthesized
+PMIS-100148,L&T Technology Services,Process Engineering Intern,"Process Design, MATLAB, Chemical Engineering",Energy & Oil & Gas,Indore,Madhya Pradesh,Yes,5000,12,2025-05-03,PMIS_portal_inferred/synthesized
+PMIS-100149,JSW Steel,Clinical Data Intern,"Research, Lab Techniques, Data Analysis",Healthcare & Pharma,Noida,Uttar Pradesh,Yes,5000,12,2024-10-17,PMIS_portal_inferred/synthesized
+PMIS-100150,PepsiCo India,HR Intern,"Interviewing, MS Office, Communication",HR & Admin,Lucknow,Uttar Pradesh,Yes,5000,12,2024-11-20,PMIS_portal_inferred/synthesized
+PMIS-100151,Nestle India,Recruitment Intern,"Communication, MS Office, Recruitment",HR & Admin,Pune,Maharashtra,Yes,5000,12,2024-12-02,PMIS_portal_inferred/synthesized
+PMIS-100152,Flipkart,Finance Intern,"Financial Modelling, Excel, Risk Analysis",Banking & Finance,Jaipur,Rajasthan,Yes,5000,12,2025-02-02,PMIS_portal_inferred/synthesized
+PMIS-100153,Infosys,Network Engineering Intern,"Python, Linux, Network Basics",Telecom,Gurgaon,Haryana,Yes,5000,12,2025-03-18,PMIS_portal_inferred/synthesized
+PMIS-100154,GAIL India,R&D Intern,"Data Analysis, Research, R",Healthcare & Pharma,Indore,Madhya Pradesh,Yes,5000,12,2025-02-06,PMIS_portal_inferred/synthesized
+PMIS-100155,Muthoot Finance,Industrial Engineering Intern,"Quality Control, LEAN, Automation",Manufacturing,Gurgaon,Haryana,Yes,5000,12,2025-07-29,PMIS_portal_inferred/synthesized
+PMIS-100156,ICICI Bank,Backend Developer Intern,"Data Structures, Python, SQL",IT & Software,Chandigarh,Punjab,Yes,5000,12,2025-06-27,PMIS_portal_inferred/synthesized
+PMIS-100157,Tata Motors,Credit Analysis Intern,"Risk Analysis, SQL, Python",Banking & Finance,Surat,Gujarat,Yes,5000,12,2024-11-25,PMIS_portal_inferred/synthesized
+PMIS-100158,Biocon,Process Engineering Intern,"MATLAB, Process Design, Chemical Engineering",Energy & Oil & Gas,Nagpur,Maharashtra,Yes,5000,12,2024-10-16,PMIS_portal_inferred/synthesized
+PMIS-100159,Larsen & Toubro,Associate Product Intern,"Analytics, Stakeholder Communication, Roadmapping",Product Management,Thiruvananthapuram,Kerala,Yes,5000,12,2025-09-30,PMIS_portal_inferred/synthesized
+PMIS-100160,Biocon,Risk Analyst Intern,"SQL, Financial Modelling, Excel",Banking & Finance,Chennai,Tamil Nadu,Yes,5000,12,2025-02-18,PMIS_portal_inferred/synthesized
+PMIS-100161,HCL Technologies,Compliance Intern,"Compliance, Drafting, Legal Research",Legal & Compliance,Kochi,Kerala,Yes,5000,12,2025-08-06,PMIS_portal_inferred/synthesized
+PMIS-100162,Sun Pharma,Industrial Engineering Intern,"Quality Control, Automation, PLC",Manufacturing,Gurgaon,Haryana,Yes,5000,12,2025-04-30,PMIS_portal_inferred/synthesized
+PMIS-100163,Kotak Mahindra Bank,Product Design Intern,"User Research, Sketch, Figma",Design & UX,Jaipur,Rajasthan,Yes,5000,12,2025-05-07,PMIS_portal_inferred/synthesized
+PMIS-100164,ICICI Bank,Market Research Intern,"Brand Management, Market Research, Excel",FMCG,Bengaluru,Karnataka,Yes,5000,12,2024-11-16,PMIS_portal_inferred/synthesized
+PMIS-100165,Mahindra & Mahindra,Credit Analysis Intern,"Excel, SQL, Python",Banking & Finance,Indore,Madhya Pradesh,Yes,5000,12,2024-10-31,PMIS_portal_inferred/synthesized
+PMIS-100166,JSW Steel,Legal Research Intern,"Drafting, Compliance, Legal Research",Legal & Compliance,Delhi,Delhi,Yes,5000,12,2025-02-25,PMIS_portal_inferred/synthesized
+PMIS-100167,Hero MotoCorp,Supply Chain Intern,"Operations, Route Optimization, SQL",Logistics & Travel,Chennai,Tamil Nadu,Yes,5000,12,2025-09-02,PMIS_portal_inferred/synthesized
+PMIS-100168,Amazon India,Process Engineering Intern,"Process Design, MATLAB, Chemical Engineering",Energy & Oil & Gas,Noida,Uttar Pradesh,Yes,5000,12,2025-07-21,PMIS_portal_inferred/synthesized
+PMIS-100169,Bharti Airtel,Data Science Intern,"Data Visualization, scikit-learn, Python",Data Science & Analytics,Kolkata,West Bengal,Yes,5000,12,2025-02-17,PMIS_portal_inferred/synthesized
+PMIS-100170,PepsiCo India,Supply Chain Intern,"Route Optimization, Operations, SQL",Logistics & Travel,Chennai,Tamil Nadu,Yes,5000,12,2025-07-17,PMIS_portal_inferred/synthesized
+PMIS-100171,Cipla,Content Marketing Intern,"SEO, Social Media, Content Writing",Marketing & Communications,Bengaluru,Karnataka,Yes,5000,12,2025-06-29,PMIS_portal_inferred/synthesized
+PMIS-100172,Reliance Retail,Social Media Intern,"Google Analytics, SEO, Content Writing",Marketing & Communications,Lucknow,Uttar Pradesh,Yes,5000,12,2025-03-09,PMIS_portal_inferred/synthesized
+PMIS-100173,ONGC,Legal Research Intern,"Legal Research, Compliance, Drafting",Legal & Compliance,Vadodara,Gujarat,Yes,5000,12,2024-10-26,PMIS_portal_inferred/synthesized
+PMIS-100174,Nestle India,Credit Analysis Intern,"Risk Analysis, Python, Financial Modelling",Banking & Finance,Vadodara,Gujarat,Yes,5000,12,2025-05-15,PMIS_portal_inferred/synthesized
+PMIS-100175,Bajaj Finserv,Brand Marketing Intern,"Marketing, Brand Management, Market Research",FMCG,Hyderabad,Telangana,Yes,5000,12,2025-02-23,PMIS_portal_inferred/synthesized
+PMIS-100176,Nestle India,Associate Product Intern,"Roadmapping, Analytics, JIRA",Product Management,Vadodara,Gujarat,Yes,5000,12,2024-10-29,PMIS_portal_inferred/synthesized
+PMIS-100177,Tata Consultancy Services,RF Engineering Intern,"Python, Network Basics, Signal Processing",Telecom,Ahmedabad,Gujarat,Yes,5000,12,2025-03-17,PMIS_portal_inferred/synthesized
+PMIS-100178,Tata Motors,DevOps Intern,"REST APIs, Algorithms, SQL",IT & Software,Chennai,Tamil Nadu,Yes,5000,12,2025-04-13,PMIS_portal_inferred/synthesized
+PMIS-100179,Paytm,HSE Intern,"Chemical Engineering, Process Design, MATLAB",Energy & Oil & Gas,Chandigarh,Punjab,Yes,5000,12,2024-10-10,PMIS_portal_inferred/synthesized
+PMIS-100180,Flipkart,Credit Analysis Intern,"Python, Risk Analysis, SQL",Banking & Finance,Bhopal,Madhya Pradesh,Yes,5000,12,2025-09-29,PMIS_portal_inferred/synthesized

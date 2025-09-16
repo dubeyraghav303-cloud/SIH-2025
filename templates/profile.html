@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - InternLink</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .card {
+            background: #1f2041;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            
+        }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">InternLink</div>
+    <nav>
+      <a href="{{ url_for('internship_form') }}">Home</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Profile</h1>
+
+    <!-- ✅ Edit Profile Button -->
+    <div style="margin-bottom: 16px; text-align: right;">
+      <a href="{{ url_for('edit_profile') }}" 
+         style="display: inline-block; padding: 10px 16px; background: #007bff; color: white; border-radius: 8px; text-decoration: none; font-weight: 600px;">
+         ✏️ Edit Profile
+      </a>
+    </div>
+
+    <section class="about">
+      <h2>About You</h2>
+      {% if profile %}
+        <p><b>Name:</b> {{ profile.name }}</p>
+        <p><b>Skills:</b> {{ profile.skills | join(', ') if profile.skills else '' }}</p>
+        <p><b>Education:</b> {{ profile.education }}</p>
+        <p><b>Sector Interests:</b> {{ profile.sectors | join(', ') if profile.sectors else '' }}</p>
+        <p><b>Previous Experience:</b> {{ profile.experience }}</p>
+        <p><b>Institution:</b> {{ profile.institution }}</p>
+        <p><b>Preferred Locations:</b> {{ profile.preferred_locations }}</p>
+      {% else %}
+        <p>No profile details yet. <a href="{{ url_for('edit_profile') }}">Add details</a></p>
+      {% endif %}
+    </section>
+
+    <section class="saved">
+      <h2>Saved Internships</h2>
+      {% for job in saved %}
+        <div class="card">
+          <h3>{{ job.title }}</h3>
+          <p><b>Company:</b> {{ job.company }}</p>
+          <p><b>Sector:</b> {{ job.sector_interests }}</p>
+          <p><b>Skills Required:</b> {{ job.required_skills }}</p>
+          <p><b>Location:</b> {{ job.location }}</p>
+          <p><b>Stipend:</b> ₹{{ job.stipend }}</p>
+        </div>
+      {% else %}
+        <p>You haven’t saved any internships yet.</p>
+      {% endfor %}
+    </section>
+
+    <section class="applied">
+      <h2>Applied Internships</h2>
+      {% for job in applied %}
+        <div class="card">
+          <h3>{{ job.title }}</h3>
+          <p><b>Company:</b> {{ job.company }}</p>
+          <p><b>Sector:</b> {{ job.sector_interests }}</p>
+          <p><b>Skills Required:</b> {{ job.required_skills }}</p>
+          <p><b>Location:</b> {{ job.location }}</p>
+          <p><b>Stipend:</b> ₹{{ job.stipend }}</p>
+        </div>
+      {% else %}
+        <p>No internships applied yet.</p>
+      {% endfor %}
+    </section>
+
+    <section class="enrolled">
+      <h2>Enrolled Courses</h2>
+      {% for course in enrolled_courses %}
+        <div class="card">
+          <h3>{{ course }}</h3>
+        </div>
+      {% else %}
+        <p>You haven’t enrolled in any courses yet.</p>
+      {% endfor %}
+    </section>
+  </main>
+</body>
+</html>
